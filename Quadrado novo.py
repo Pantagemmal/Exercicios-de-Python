@@ -1,0 +1,5 @@
+L = float(input("Qual o tamanho do lado do quadrado?"))
+L1 = int(L)
+a = (L1 * L1)
+b = (L1 * 4)
+R = print("perímetro: ", b, "-", "área: ", a)

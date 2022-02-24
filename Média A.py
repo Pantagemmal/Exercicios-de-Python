@@ -1,0 +1,11 @@
+
+Nota1 = input("Digite a primeira nota:")
+Nota2 = input("Digite a segunda nota:")
+Nota3 = input("Digite a terceira nota:")
+Nota4 = input("Digite a quarta nota:")
+Dado1 = float(Nota1)
+Dado2 = float(Nota2)
+Dado3 = float(Nota3)
+Dado4 = float(Nota4)
+RES = ((Dado1 + Dado2 + Dado3 + Dado4) / 4)
+Resultado = print("A média é: ", RES)

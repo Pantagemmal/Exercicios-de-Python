@@ -1,0 +1,5 @@
+lado=input("Digite o valor correspondente ao lado de um quadrado:  ")
+lado=int(lado)
+area=int(lado*lado)
+perimetro=int(lado+lado+lado+lado)
+print("perimetro:  ", perimetro, "- area:  ", area,)

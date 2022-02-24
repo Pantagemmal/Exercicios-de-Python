@@ -1,0 +1,7 @@
+seg = float(input("Por favor, entre com o número de segundos que deseja converter:"))
+dias = int((seg // 86400))
+horas = int(((seg % 86400) // 3600))
+a = ((seg % 86400) % 3600)
+minutos = int(((a) // 60))
+segundos = int(((a) % 60))
+print = print( dias , "dias," , horas , "horas," , minutos , "minutos e" , segundos , "segundos." )
